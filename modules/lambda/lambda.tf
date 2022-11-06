@@ -1,6 +1,6 @@
 data "archive_file" "monitor_script" {
   type        = "zip"
-  source_file = "../modules/resource-monitoring/modules/lambda/script/resource_monitor_script.py"
+  source_file = "../modules/lambda/script/resource_monitor_script.py"
   output_path = "resource_monitor_script.zip"
 }
 
