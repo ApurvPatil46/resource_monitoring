@@ -18,7 +18,7 @@ This solution leverages **AWS Lambda, CloudWatch Events, and SNS** to build a li
 ---
 
 ## 🛠 Architecture
-![Architecture Diagram](/Users/apurvpatil/Downloads/cost-optimization.png)
+![Architecture Diagram](./Users/apurvpatil/Downloads/cost-optimization.png)
 **Components:**
 1. **Python Script** – Identifies long-running EC2 instances and stops/terminates them.
 2. **AWS Lambda** – Hosts and runs the script serverlessly.
@@ -45,5 +45,3 @@ This solution leverages **AWS Lambda, CloudWatch Events, and SNS** to build a li
 3. Stop idle RDS instances
 4. Monitor cost anomalies
 5. Integrate notifications with Slack or PagerDuty
-
-## Diagram
