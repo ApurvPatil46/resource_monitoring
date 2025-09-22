@@ -18,7 +18,7 @@ This solution leverages **AWS Lambda, CloudWatch Events, and SNS** to build a li
 ---
 
 ## 🛠 Architecture
-![Architecture Diagram](./Users/apurvpatil/Downloads/cost-optimization.png)
+![Architecture Diagram](https://github.com/ApurvPatil46/resource_monitoring/blob/df6a388ad2745549fc41d9e9c1909f8c226b25b7/cost-optimization.png)
 **Components:**
 1. **Python Script** – Identifies long-running EC2 instances and stops/terminates them.
 2. **AWS Lambda** – Hosts and runs the script serverlessly.
